@@ -16,7 +16,6 @@ color: #fff;
 text-align: center;
 font-size: 1.4rem;
 font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
-
 }
 
 .header{
@@ -200,49 +199,29 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
 }
 
 .contact{
-  padding: 80px 0 150px;
+  padding: 80px 0 80px;
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .contact-title-sub{
+    
+    width: 300px;
+    height: 80px;
+    line-height: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #1f3cbd;
+    opacity: 0.9;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    margin: 0 auto;
+  }
+  .contact-title-sub:hover{
+    background-color: #415cd4;
+    opacity: 0.8;
+  }
 }
 
-.contact-form{
-  width: 50%;
-  margin: 50px auto 0;
-}
-
-.contact-form input[type=text],
-.contact-form textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 15px;
-  outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 0;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #fff;
-}
-
-.contact-form textarea{
-  height: 150px;
-}
-
-.contact-form input[type=submit]{
-  display: block;
-  width: 200px;
-  margin: 40px auto 0;
-  padding: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 5px;
-  background-color: transparent;
-  color: rgba(255, 255, 255, 0.6);
-  cursor: pointer;
-
-}
-
-.contact-form input[type=submit]:hover{
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.contact-form input[type=text]:focus,
-.contact-form textarea:focus{
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5) inset;
-}

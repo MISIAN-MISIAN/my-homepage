@@ -78,13 +78,10 @@
 <section class="skills">
 </section>
 <section class="contact" id="contact">
-  <h2 class="heading">CONTACT</h2>
-  <form class="contact-form">
-    <input type="text" name="name" placeholder="NAME">
-    <textarea name="message" placeholder="MESSAGE"></textarea>
-    <input type="submit" value="SEND">
-  </form>
-
+  <%= link_to new_contact_path do %>
+    <h2 class="heading">CONTACT</h2>
+      <p class="contact-title-sub"> お問い合わせ </p>
+  <% end %>    
 </section>
 <footer class="footer">
 </footer>
