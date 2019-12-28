@@ -55,3 +55,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # herokuデプロイ記載
 gem 'sqlite3', group: [:development, :test]
+
+gem "font-awesome-rails"
