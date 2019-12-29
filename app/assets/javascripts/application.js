@@ -35,11 +35,7 @@ $(document).on("turbolinks:load", function(){
       // 自動再生で切り替えをする時間
       accessibility: true,
       // アクセシビリティ。左右ボタンで画像の切り替えをできるかどうか
-  });
-
-
-
-
+    });
 
   });
 
