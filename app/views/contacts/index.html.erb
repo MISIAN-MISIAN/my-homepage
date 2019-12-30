@@ -17,6 +17,12 @@
   <p class="about-text">
     このサイトは自分の勉強してきた言語を使って作った、ポートフォリオサイトです。
   </p>
+  <%= link_to "https://twitter.com/devil35513307", class:"social-icon" do %>
+    <i class="twitter fab fa-twitter-square"></i>
+  <% end %>
+  <%= link_to "https://github.com/MISIAN-MISIAN", class:"social-icon" do %>
+    <i class="github fab fa-github-square"></i>
+  <% end %>  
 </section>
 <section class="works">
   <h2 class="heading">PORTFOLIOS</h2>
@@ -96,17 +102,43 @@
   <h2 class="heading">MY SKILLS</h2>
   <div class="skills-wrapper">
     <div class="skill-box">
-      <i class="skill-icon fas fa-code"></i>
+      <i class="skill-icon fas fa-desktop"></i>
       <div class="skill-title">CODING</div>
-      <i class="skill-icon fab fa-html5"></i>
+      <i class="html fab fa-html5">
+        <p>HTML</p>
+      </i>     
+      <i class="css fab fa-css3-alt">
+        <p>CSS</p>
+      </i>
+      <i class="sass fab fa-sass">
+        <p>Sass</p>
+      </i>
+      <i class="javascript fab fa-js">
+        <p>javascript</p>
+      </i>
+      <div class="ruby">
+        <img src="https://img.icons8.com/office/40/000000/ruby-programming-language.png">
+        <p>Ruby on Rails</p>
+      </div>
+      <%# <img class="ruby" src="https://img.icons8.com/office/40/000000/ruby-programming-language.png">
+      <div class="ruby-text">ruby on rails</div> %>
+       
     </div>
   </div>
 </section>
 <section class="contact" id="contact">
-  <%= link_to new_contact_path do %>
-    <h2 class="heading">CONTACT</h2>
-      <p class="contact-title-sub"> お問い合わせ </p>
-  <% end %>    
+  <h2 class="heading">CONTACT</h2>
+  <div class="contact-content">
+
+    <%= link_to "https://twitter.com/devil35513307" do %>
+      <i class="twitter-contact fab fa-twitter"></i>
+        <h3 class="or"> or </h3>
+    <% end %>
+    <%= link_to new_contact_path do %>
+      <p class="contact-title-sub"> Mail </p>
+    <% end %>
+
+  </div>
 </section>
 <footer class="footer">
 </footer>
