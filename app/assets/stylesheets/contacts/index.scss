@@ -387,4 +387,18 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     color: #76b1e0;
 
   }
+
+  .line{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    border-radius: 50%;
+    color: #5cf15c;
+    font-size: 8rem;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 600px;
+
+  }
 }
