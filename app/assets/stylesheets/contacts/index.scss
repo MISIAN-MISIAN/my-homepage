@@ -356,7 +356,7 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     font-size: 1.6rem;
     margin: 0 auto;
     position: absolute;
-    right: 550px;
+    right: 570px;
     top: 35px;
   }
   .contact-title-sub:hover{
@@ -369,7 +369,16 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     font-size: 2.3rem;
     position: absolute;
     top: 50px;
+    left: 640px;
   }
+  .or1{
+    display: inline-block;
+    font-size: 2.3rem;
+    position: absolute;
+    top: 50px;
+    left: 750px;
+  }
+
   .twitter-contact{
     display: inline-block;
     width: 100px;
@@ -388,17 +397,28 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
 
   }
 
+
+  .line-content{
+    background-color: #fff;
+    position: absolute;
+    left: 670px;
+    width: 60px;
+    height: 60px;
+    margin-top: 35px;
+    margin-left: 5px;
+    
+  }
+
   .line{
     display: inline-block;
-    width: 100px;
-    height: 100px;
     padding-top: 25px;
-    border-radius: 50%;
     color: #5cf15c;
     font-size: 8rem;
-    padding-bottom: 20px;
     position: absolute;
-    left: 600px;
-
+    left: 670px;
+  }
+  .line:hover{
+    color: #91f091;
+    
   }
 }
