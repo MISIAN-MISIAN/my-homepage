@@ -52,3 +52,6 @@ production:
   database: my-homepage_production
   username: my-homepage
   password: <%= ENV['MY-HOMEPAGE_DATABASE_PASSWORD'] %>
+
+
+
