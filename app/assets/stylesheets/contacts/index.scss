@@ -343,6 +343,9 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
 .contact-content{
   position: relative;
   height: 150px;
+  @media screen and (max-width:480px){
+    width: 350px;
+  }
 
   .contact-title-sub{
     display: inline-block;
