@@ -30,6 +30,11 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   margin: 0 0 30px;
   letter-spacing: 1px;
   font-size: 2.2rem;
+  @media screen and (max-width:375px){
+    font-size: 1.7rem;
+   
+  }
+
 }
 
 .site-title-sub::before,
@@ -41,6 +46,12 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   margin: 0 30px;
   background-color: #fff;
   vertical-align: middle;
+  @media screen and (max-width:375px){
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+   
+  }
 }
 
 .site-title{
@@ -147,11 +158,23 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   width: 100%;
   margin-top: 60px;
   table-layout: fixed;
+  
 }
 
 .portfolios-box{
   margin: 0 462.5px;
-  
+  @media screen and (max-width:375px){
+   margin: 0 50px;
+  }
+  img{
+    width: 500px;
+    height: 280px;
+    @media screen and (max-width:375px){
+      width: 300px;
+      height: 150px;
+      
+    }
+  }
  
 }
 
@@ -263,6 +286,7 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   font-size: 8rem;
   line-height: 142px;
   font-family: "Font Awesome 5 Free";
+  
 
 }
 
@@ -281,6 +305,11 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     font-size: 1.3rem;
     color: black;
   }
+  @media screen and (max-width:375px){
+    width: 100%;
+    margin-bottom: 30px;
+   
+  }
 }
 .css{
   margin-right: 50px;
@@ -291,6 +320,10 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   P{
     font-size: 1.3rem;
     color: black;
+  }
+  @media screen and (max-width:375px){
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
 
@@ -304,6 +337,10 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     font-size: 1.3rem;
     color: black;
   }
+  @media screen and (max-width:375px){
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 
 .javascript{
@@ -316,6 +353,10 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     font-size: 1.3rem;
     color: black;
   }
+  @media screen and (max-width:375px){
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 .ruby{
   display: inline-block;
@@ -323,7 +364,10 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   margin-right: 50px;
   color: #000000;
   font-size: 1.3rem;
-   
+  @media screen and (max-width:375px){
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 
 .contact{
@@ -359,8 +403,8 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     position: absolute;
     right: 570px;
     top: 35px;
-    @media screen and (max-width:480px){
-      right: 570px;
+    @media screen and (max-width:375px){
+      right: 5px;
       top: 35px;
     }
   }
@@ -375,6 +419,10 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     position: absolute;
     top: 50px;
     left: 640px;
+    @media screen and (max-width:375px){
+      left: 100px;
+     
+    }
   }
   .or1{
     display: inline-block;
@@ -382,6 +430,10 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     position: absolute;
     top: 50px;
     left: 750px;
+    @media screen and (max-width:375px){
+      left: 250px;
+     
+    }
   }
 
   .twitter-contact{
@@ -395,6 +447,11 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     padding-bottom: 20px;
     position: absolute;
     left: 550px;
+    @media screen and (max-width:375px){
+      left: 5px;
+     
+    }
+    
   }
   .twitter-contact:hover{
     opacity: 0.6;
@@ -411,7 +468,10 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     height: 60px;
     margin-top: 35px;
     margin-left: 5px;
-    
+    @media screen and (max-width:375px){
+      left: 150px;
+     
+    }
   }
 
   .line{
@@ -421,6 +481,10 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
     font-size: 8rem;
     position: absolute;
     left: 670px;
+    @media screen and (max-width:375px){
+      left: 150px;
+     
+    }
   }
   .line:hover{
     color: #91f091;
