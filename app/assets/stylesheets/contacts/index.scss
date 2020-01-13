@@ -177,6 +177,137 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   }
  
 }
+.s_08 .accordion_area {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.s_08 .accordion_area .accordion_one._flex {
+  width: 33.333%;
+}
+.s_08 .accordion_one .accordion_header {
+  background-color: #383634;
+  // border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  // font-weight: bold;
+  padding: 20px 11% 20px 7%;
+  text-align: center;
+  position: relative;
+  z-index: +1;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  @media screen and (max-width:375px){
+    font-size: 8px;
+    text-align: left;
+   }
+}
+.s_08 .accordion_one .accordion_header_one {
+  background-color: #383634;
+  // border-bottom: 1px solid #fff;
+  color: black;
+  font-size: 14px;
+  // font-weight: bold;
+  padding: 20px 7%;
+  text-align: left;
+  position: relative;
+  z-index: +1;
+  cursor: pointer;
+  @media screen and (max-width:375px){
+    font-size: 4px;
+   }
+}
+.s_08 .accordion_one:nth-of-type(1) .accordion_inner .accordion_header_one {
+  background-color: #ada797;
+}
+.s_08 .accordion_one:nth-of-type(2) .accordion_header {
+  background-color: #383634;
+}
+.s_08 .accordion_one:nth-of-type(2) .accordion_inner .accordion_header_one {
+  background-color: #ada797;
+}
+.s_08 .accordion_one:nth-of-type(3) .accordion_header {
+  background-color: #383634;
+}
+.s_08 .accordion_one:nth-of-type(3) .accordion_inner .accordion_header_one {
+  background-color: #ada797;
+}
+.s_08 .accordion_one .accordion_header:hover {
+  opacity: .8;
+}
+.s_08 .accordion_one .accordion_header .i_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  margin-top: -20px;
+  box-sizing: border-box;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transform-origin: center center;
+  transition-duration: 0.2s;
+  
+}
+.s_08 .accordion_one .accordion_header .i_box .one_i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transform-origin: center center;
+  transition-duration: 0.2s;
+  position: relative;
+  
+}
+.s_08 .accordion_one .accordion_header.open .i_box {
+  -webkit-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+.s_08 .accordion_one .accordion_header .i_box .one_i:before, .s_08 .accordion_one .accordion_header .i_box .one_i:after {
+  display: flex;
+  content: '';
+  background-color: #fff;
+  border-radius: 10px;
+  width: 18px;
+  height: 4px;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transform-origin: center center;
+}
+.s_08 .accordion_one .accordion_header .i_box .one_i:before {
+  width: 4px;
+  height: 18px;
+  top: 0;
+  left: 7px;
+}
+.s_08 .accordion_one .accordion_header.open .i_box .one_i:before {
+  content: none;
+}
+.s_08 .accordion_one .accordion_header.open .i_box .one_i:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.s_08 .accordion_one .accordion_inner {
+  display: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+.s_08 .accordion_one .accordion_inner .box_one {
+  height: 300px;
+}
+.s_08 .accordion_one .accordion_inner p.txt_a_ac {
+  margin: 0;
+}
 
 // .work-box{
 //   position: relative;
