@@ -12,7 +12,8 @@
   <p class="about-text">
     はじめまして。日本でエンジニアを目指しています。<br>
     工業高校を卒業し、約4年間、樹脂成形品製作会社で業務を経て
-  現在はプログラミングの勉強しながら就職活動しています。
+    現在はプログラミングの勉強しながら就職活動しています。<br>
+    エンジニア業務未経験です。
   
   </p>
   <p class="about-text">
@@ -45,6 +46,67 @@
         </a>
       </li>
     </ul>
+    <div class="section s_08">
+
+      <div class="accordion_area">
+
+        <div class="accordion_one _flex">
+          <div class="accordion_header">制作物１ 詳細<div class="i_box"><i class="one_i"></i></div></div>
+          <div class="accordion_inner">
+            <div class="accordion_one">
+              <div class="accordion_header_one">
+              <p>
+                某サイトのクローンサイトのfreemarketサイトを作りました。全ては真似できていませんが、ある程度の機能まで実装しています。
+                出品もでき、pay.jpを使い購入もできるようにしています。google.facebookでの会員登録もできるようにしています。
+                クローンサイトということもあり、サイトに制限をかけています。気になる方は、basic認証のpassを教えますので、contactフォームから
+                連絡をくださると対応します。
+              </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion_one _flex">
+          <div class="accordion_header">制作物２ 詳細<div class="i_box"><i class="one_i"></i></div></div>
+          <div class="accordion_inner">
+            <div class="accordion_one">
+              <div class="accordion_header_one">
+              <p>
+                タイトルとお気に入りの写真を投稿できるサイトを作りました。
+                新規登録さえしていただければ、誰でも写真を投稿できます。
+                写真に対してコメントできる機能を実装しています。
+                コメント部分に関しては、非同期通信で対応しているので、写真の感想や撮影場所を聞くなど
+                スムーズにメッセージのやりとりができると思います。
+              </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion_one _flex">
+          <div class="accordion_header">制作物３ 詳細<div class="i_box"><i class="one_i"></i></div></div>
+          <div class="accordion_inner">
+            <div class="accordion_one">
+              <div class="accordion_header_one">
+              <p>
+              今現在閲覧いただいてるサイトになります。
+              自分の簡単なホームページになります。
+              初めてherokuを使ってデプロイしました。
+              案件などあれば
+              contactフォームから連絡していただければ幸いです。
+              </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
     <%# <div class="work-box tree">
       <img class="work-image" src="/images/tree.jpg" alt="制作事例１">
       <div class="work-description">
@@ -136,12 +198,12 @@
         <h3 class="or"> or </h3>
     <% end %>
     <%= link_to new_contact_path do %>
-      <p class="contact-title-sub"> Mail </p>
+      <%# <p class="contact-title-sub"> Mail </p> %>
     <% end %>
     <%= link_to "https://line.me/R/ti/p/%40bue0968q" do %>
       <div class="line-content"></div>
       <i class="line fab fa-line"></i>
-        <h3 class="or1"> or </h3>
+        <%# <h3 class="or1"> or </h3> %>
     <% end %>
 
   </div>
