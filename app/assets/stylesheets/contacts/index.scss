@@ -185,7 +185,7 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   justify-content: flex-start;
 }
 .s_08 .accordion_area .accordion_one._flex {
-  width: 33.333%;
+  width: 25%;
 }
 .s_08 .accordion_one .accordion_header {
   background-color: #383634;
@@ -232,6 +232,12 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   background-color: #383634;
 }
 .s_08 .accordion_one:nth-of-type(3) .accordion_inner .accordion_header_one {
+  background-color: #ada797;
+}
+.s_08 .accordion_one:nth-of-type(4) .accordion_header {
+  background-color: #383634;
+}
+.s_08 .accordion_one:nth-of-type(4) .accordion_inner .accordion_header_one {
   background-color: #ada797;
 }
 .s_08 .accordion_one .accordion_header:hover {
