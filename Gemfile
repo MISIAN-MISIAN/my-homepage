@@ -59,3 +59,6 @@ gem 'sqlite3', group: [:development, :test]
 
 # gem "font-awesome-rails"
 gem 'font-awesome-sass'
+
+#GitHub上にメールアドレスとパスワードをアップしないよう
+gem "dotenv-rails"

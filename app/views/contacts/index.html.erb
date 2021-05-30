@@ -19,9 +19,9 @@
   <p class="about-text">
     このサイトは自分の勉強してきた言語を使って作った、ポートフォリオサイトです。
   </p>
-  <%= link_to "https://twitter.com/devil35513307", class:"social-icon" do %>
-    <i class="twitter fab fa-twitter-square"></i>
-  <% end %>
+  <%# <%= link_to "https://twitter.com/devil35513307", class:"social-icon" do %>
+    <%# <i class="twitter fab fa-twitter-square"></i> %>
+  <%# <% end %> 
   <%= link_to "https://github.com/MISIAN-MISIAN", class:"social-icon" do %>
     <i class="github fab fa-github-square"></i>
   <% end %>  
@@ -61,9 +61,10 @@
             <div class="accordion_one">
               <div class="accordion_header_one">
               <p>
-                某サイトのクローンサイトのfreemarketサイトを作りました。全ては真似できていませんが、ある程度の機能まで実装しています。
+                freemarketサイトを作りました。
                 出品もでき、pay.jpを使い購入もできるようにしています。google.facebookでの会員登録もできるようにしています。
-                クローンサイトということもあり、basic認証を使いサイトに閲覧制限をかけました。AWSでのデプロイも経験しました。
+                DBはMySQLを使用しています。
+                basic認証を使いサイトに閲覧制限をかけました。AWSでのデプロイも経験しました。
               </p>
               </div>
               
@@ -82,7 +83,7 @@
                 写真に対してコメントできる機能を実装しています。
                 コメント部分に関しては、非同期通信で対応しているので、写真の感想や撮影場所を聞くなど
                 スムーズにメッセージのやりとりができると思います。
-                AWSでEC2、S3使いデプロイしました。
+                AWSでEC2、S3使いデプロイも経験しました。
               </p>
               </div>
               
@@ -216,15 +217,16 @@
   <h2 class="heading">CONTACT</h2>
   <div class="contact-content">
     <%= link_to "https://twitter.com/messages/compose?recipient_id=@devil35513307&ref_src=twsrc%5Etfw" do %>
-      <i class="twitter-contact fab fa-twitter"></i>
-        <h3 class="or"> or </h3>
+      <%# <i class="twitter-contact fab fa-twitter"></i> %>
+        <%# <h3 class="or"> or </h3> %>
+        <h3 class="or"> 停止中 </h3>
     <% end %>
     <%= link_to new_contact_path do %>
       <%# <p class="contact-title-sub"> Mail </p> %>
     <% end %>
     <%= link_to "https://line.me/R/ti/p/%40bue0968q" do %>
-      <div class="line-content"></div>
-      <i class="line fab fa-line"></i>
+      <%# <div class="line-content"></div>
+      <i class="line fab fa-line"></i> %>
         <%# <h3 class="or1"> or </h3> %>
     <% end %>
     

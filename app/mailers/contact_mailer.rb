@@ -12,8 +12,15 @@ class ContactMailer < ApplicationMailer
   # end
 
 
-  def contact_mail(contact)
-    @contact = contact  
-    mail to: ENV['MAIL'], subject: "メールのタイトル"
+  # def contact_mail(contact)
+  #   @contact = contact  
+  #   mail to: ENV['MAIL'], subject: "メールのタイトル"
+  # end
+
+
+  def send_mail(contact)
+    @contact = contact
+    mail to:   ENV['TOMAIL'], subject: '【お問い合わせ】' + @contact.subject_i18n
   end
+
 end

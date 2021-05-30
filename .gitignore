@@ -19,3 +19,4 @@
 public/uploads/*
 public/images/*
 assets/images/*
+/.env
