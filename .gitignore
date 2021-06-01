@@ -19,5 +19,5 @@
 public/uploads/*
 public/images/*
 assets/images/*
-assets/views/contacts/index.html.erb
+views/contacts/index.html.erb
 /.env
