@@ -62,3 +62,6 @@ gem 'font-awesome-sass'
 
 #GitHub上にメールアドレスとパスワードをアップしないよう
 gem "dotenv-rails"
+
+gem 'rails-i18n'
+gem 'enum_help'

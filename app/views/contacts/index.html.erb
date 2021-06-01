@@ -219,11 +219,21 @@
     <%= link_to "https://twitter.com/messages/compose?recipient_id=@devil35513307&ref_src=twsrc%5Etfw" do %>
       <%# <i class="twitter-contact fab fa-twitter"></i> %>
         <%# <h3 class="or"> or </h3> %>
-        <h3 class="or"> 停止中 </h3>
+        <%# <h3 class="or"> 停止中 </h3> %>
     <% end %>
-    <%= link_to new_contact_path do %>
+    <%# <%= link_to new_contact_path do %> 
       <%# <p class="contact-title-sub"> Mail </p> %>
-    <% end %>
+    <%# <% end %> 
+    <a  href="mailto:baikinman19960907@gmail.com" class="btn btn-custom01">
+      <span class="btn-custom01-front">MAIL</span>
+      <i class="fas fa-angle-right fa-position-right"></i>
+    </a>
+
+
+    <%# <a href="mailto:baikinman19960907@gmail.com" class="btn btn--orange">
+      <p class="contact-title-sub2"> Mail </p>
+    </a> %>
+ 
     <%= link_to "https://line.me/R/ti/p/%40bue0968q" do %>
       <%# <div class="line-content"></div>
       <i class="line fab fa-line"></i> %>
