@@ -21,3 +21,5 @@ public/images/*
 assets/images/*
 views/contacts/index.html.erb
 /.env
+# Ignore master key for decrypting credentials and more.
+/config/master.key
