@@ -547,6 +547,7 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
 .contact-content{
   position: relative;
   height: 150px;
+}
   
   // .btn--orange,
   // a.btn--orange {
@@ -585,19 +586,19 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
   //   opacity: 0.8;
   // }
   
-  .or{
-    display: inline-block;
-    font-size: 2.3rem;
-    position: absolute;
-    top: 50px;
-    // left: 640px;
-    left: 705px;
-    @media screen and (max-width:375px){
-      // left: 100px;
-      left: 170px;
+  // .or{
+  //   display: inline-block;
+  //   font-size: 2.3rem;
+  //   position: absolute;
+  //   top: 50px;
+  //   // left: 640px;
+  //   left: 705px;
+  //   @media screen and (max-width:375px){
+  //     // left: 100px;
+  //     left: 170px;
      
-    }
-  }
+  //   }
+  // }
   // .or1{
   //   display: inline-block;
   //   font-size: 2.3rem;
@@ -794,4 +795,3 @@ font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,sans-serif;
 
 // a.btn-custom01:active:after {
 //   content: "\f2b6";
-// }
